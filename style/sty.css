@@ -87,7 +87,7 @@ padding: 20px;
         line-height: 26px;
         font-family: 'Work Sans', sans-serif;
         color: #444343;
-        margin-bottom: 10px;
+
     }
     .main .reminder ol li p i{
         margin-right: 15px;
@@ -97,7 +97,7 @@ padding: 20px;
     /* my Plan section start */
     
     #plan{
-        padding: 25px 0;
+        padding: 100px 0;
     }
     #plan .heading{
         font-size: 40px;
@@ -130,12 +130,99 @@ padding: 20px;
         font-size: 25px;
         font-weight: 500;
         color: #737272;
-        font-family: 'Work Sans', sans-serif;
-        
-        
+        font-family: 'Work Sans', sans-serif;        
     }
-    
-    
-    
-
 /* my Plan section end */
+/* banner part start */
+#banner{
+    padding: 25px 05px;
+}
+.banner_picture{
+    background: url('../images/watch.png') no-repeat, center;
+    margin: 10px;
+    
+}
+.banner_picture .gradient{
+    background: url('../images/gradient2.png') no-repeat, center;
+    padding: 50px 60px;
+}
+.gradient h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+.gradient .btn_click{
+    background-color: #FFF;
+    padding: 20px 36px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F15B22;
+}
+/* banner part end */
+
+/* footer part start */
+#footer_item{
+    background-color: #151414;
+    padding: 130px 10px;
+    margin-top: 120px;
+}
+.footer_items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer_item .left_side{
+    width: 50%;
+}
+.footer_item .right_side{
+    width: 50%;
+}
+.footer_items .left_side .footer_heading{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+.left_side .describe{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.left_side .mail{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.left_side .phn{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.left_side .footer_icon a{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FFF;
+
+}
+.left_side .footer_icon a i{
+    
+    font-size: 30px;
+text-align: center;
+    color:#16D887;
+}
+/* footer part end */
