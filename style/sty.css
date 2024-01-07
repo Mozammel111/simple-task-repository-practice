@@ -15,11 +15,47 @@ a{
     width: 1140px;
     margin: 0 auto;
 }
-font-family: 'Work Sans', sans-serif;
-/* common css end */
-/* header part start */
 
-
-
+/* common  css end */
+#header_top{
+background-image: url('../images/banner/banner1.png');
+background-size: cover;
+padding: 20px;
+}
+.right{
+    text-align: right;
+    padding: 100px 100px 100px 0;
+}
+.right h1{
+    font-size: 65px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: #151414;
+    
+}
+.right p{
+    font-size: 16px;
+    color: #444343;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+}
+.right .btn-contact{
+    background-color: #F15B22;
+    padding: 15px 20px 20px 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    color: #FFF;
+ }
 
 /* header part end */
+/* main part start */
+
+
+
+
+
+/* main part end */
