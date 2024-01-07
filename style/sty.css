@@ -51,11 +51,91 @@ padding: 20px;
     color: #FFF;
  }
 
-/* header part end */
-/* main part start */
+ /* header part end */
+ /* main part start */
+ #previous_failure{
+     background-color: #FFF;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 70px;
+        padding: 100px 50px;
+        
+    }
+    .demo_img{
+        height: 666px;
+        width: 569px;
+    }
+    .reminder{
+        text-align: start;
+        margin-top: 150px;
+    }
 
+    .main .reminder h2{
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Work Sans', sans-serif;
+        color: #151414;
+        margin-bottom: 20px;
+    }
 
+    .main .reminder p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        font-family: 'Work Sans', sans-serif;
+        color: #444343;
+        margin-bottom: 10px;
+    }
+    .main .reminder ol li p i{
+        margin-right: 15px;
+        color: #16D887;
+    }
+    /* main part end */
+    /* my Plan section start */
+    
+    #plan{
+        padding: 25px 0;
+    }
+    #plan .heading{
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Work Sans', sans-serif;
+        color: #151414;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .plan_manage{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .plan_manage .plan_icon{
+        text-align: center;
+    }
+    .plan_manage .plan_icon h3{
+        font-size: 30px;
+        color: #151414;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .plan_manage .plan_icon h4{
+        font-size: 25px;
+        font-weight: 500;
+        color: #737272;
+        font-family: 'Work Sans', sans-serif;
+        
+        
+    }
+    
+    
+    
 
-
-
-/* main part end */
+/* my Plan section end */
